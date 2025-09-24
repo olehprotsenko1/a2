@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
             buttonColor.setBackgroundColor(myGreen)
         }
 
+        // Code for revert
         // Third button changes the background color of the layout
         buttonBackground.setOnClickListener {
             mainLayout.setBackgroundColor(bgColor)
