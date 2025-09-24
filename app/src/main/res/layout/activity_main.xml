@@ -18,14 +18,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="200dp" />
 
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="206dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="20dp"
+        android:text="Change Text Color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button" />
+
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="127dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="148dp"
         android:text="Some text"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25dp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="100dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
